@@ -1,0 +1,22 @@
+/* tslint:disable */
+/* eslint-disable */
+
+import React, { FunctionComponent } from 'react';
+import { ViewProps } from 'react-native';
+#svgComponents#
+#helper#
+
+interface Props extends GProps, ViewProps {
+  size?: number;
+  color?: string | string[];
+}
+
+const #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {
+  return (#iconContent#  );
+};
+
+#componentName#.defaultProps = {
+  size: #size#,
+};
+
+export default #componentName#;
